@@ -99,11 +99,11 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie_req_premium')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/FilmyWaveHub')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/betabot_hub')
-OWNER_LNK = environ.get('OWNER_LNK', '@sukoon_s')
+OWNER_LNK = environ.get('OWNER_LNK', '@ll_alexx_lll')
 FTMBOTZX_MOVIE_UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/movie_x_update')
-OWNERID = int(os.environ.get('OWNERID', '8418584090'))  # Replace with the actual admin ID
+OWNERID = int(os.environ.get('OWNERID', '8723235165'))  # Replace with the actual admin ID
 
 # ============================
 # User Configuration
@@ -119,8 +119,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))  # True if you want n
 MAX_B_TN = environ.get("MAX_B_TN", "8")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-MSG_ALRT = environ.get('MSG_ALRT', 'Made with love 😘 by @sukoon_s . Share & Support Us ♥️')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/movie_req_premium')  # Support group link (make sure bot is admin)
+MSG_ALRT = environ.get('MSG_ALRT', 'Made with love 😘 by @ll_alexx_lll . Share & Support Us ♥️')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/FilmyWaveHub')  # Support group link (make sure bot is admin)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
