@@ -53,7 +53,7 @@ MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '-1001
 
 MAGIC_FORCE_SUB = {
     -1001957497326: "normal",
-    -1004432738931: "request"
+    -1004432738931: "normal"
 }
 
 
@@ -102,7 +102,7 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/FilmyWaveHub')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/betabot_hub')
 OWNER_LNK = environ.get('OWNER_LNK', '@ll_alexx_lll')
-FTMBOTZX_MOVIE_UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/FilmyWaveUpdate')
+FTMBOTZX_MOVIE_UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/betabot_hub')
 OWNERID = int(os.environ.get('OWNERID', '8941001487'))  # Replace with the actual admin ID
 
 # ============================
